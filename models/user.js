@@ -3,7 +3,7 @@ const { Schema } = mongoose; // destructuring in JS
 
 
 const userSchema = new Schema({
-    googleID: String 
+    googleId: String 
 }); 
 
 mongoose.model('users', userSchema);
